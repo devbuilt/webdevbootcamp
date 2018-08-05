@@ -1,0 +1,17 @@
+{
+  "name": "webdevbootcamp",
+  "version": "1.0.0",
+  "description": "udemy course web dev boot camp",
+  "main": "script.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "Leo Tejeda",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.4"
+  }
+}
