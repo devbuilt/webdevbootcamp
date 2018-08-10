@@ -1,6 +1,8 @@
-// var todos = ["Buy New Turtle"];
 
-// var input = prompt("What would you like to do?");
+
+// let todos = ["Buy New Turtle"];
+
+// let input = prompt('What would you like to do?');
 
 // while(input !== "quit"){
 //     //handle input
@@ -12,13 +14,13 @@
 //         console.log("**************");
 //     } else if(input === "new") {
 //         //ask for new todo
-//         var newTodo = prompt("Enter new Todo");
+//         let newTodo = prompt("Enter new Todo");
 //         //add to todos array
 //         todos.push(newTodo);
 //         console.log("Added todo")
 //         }else if(input === "delete"){
 //             // ask for index of todo to be deleted
-//             var index = prompt("Enter index of todo to delete");
+//             let index = prompt("Enter index of todo to delete");
 //             // delete that todo
 //             //splice
 //             todos.splice(index,1)
@@ -29,12 +31,12 @@
 //     }
 // console.log("Ok, you quit the app");
 
-// var colors = ["red","orange", "yellow", "green"];
+// let colors = ["red","orange", "yellow", "green"];
 // const newArray = colors.forEach(element => {
 //         console.log("These are the colors that you like " + element);
-//     return colors;
+  
 
-//     // return colors;
+//     return colors;
 
 // });
 
@@ -124,7 +126,7 @@ var movies = [
     {
     title: "In Bruges", 
     hasWatched: true, 
-    rating: 5
+    rating: 5.0
     },
     {
     title: "Frozen",
@@ -138,7 +140,7 @@ var movies = [
     }
 ];
 
-// console.log(movies);
+console.log(movies);
 
 var moviesList = movies.forEach(function(movie){
     var result = "You have ";
@@ -151,3 +153,14 @@ var moviesList = movies.forEach(function(movie){
     result += movie.rating + " stars";
     console.log(result);
 });
+
+let comments = {};
+
+comments.data = ['Good Job','Bye', 'Lame...'];
+
+function print(arr){
+    arr.forEach(el => {
+        console.log(el);
+    });
+}
+print(comments.data);
